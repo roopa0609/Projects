@@ -4,7 +4,7 @@ print("B \n",np.linspace(2.0,3.0,5,retstep=False),"\n")
 
 x=np.linspace(0,2,10)
 
-
+print("A \n",np.sin(x))
       
 '''
 '''
