@@ -4,7 +4,7 @@ print("B \n",np.linspace(2.0,3.0,5,retstep=False),"\n")
 
 x=np.linspace(0,2,10)
 
-print("A\n",np.sin(x))
+
       
 '''
 '''
@@ -20,7 +20,7 @@ print("\n Matrix a: \n",a)
 '''
 import numpy as np
 from matplotlib import pyplot as plt
-
+'
 x=np.linspace(-4,4,9)
 
 y=np.linspace(-5,5,11)
