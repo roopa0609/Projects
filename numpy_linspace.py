@@ -59,7 +59,24 @@ plt.colorbar()
 plt.show()
 '''
 
+import numpy as np
 
+def skew(data):
+
+    n=len(data)
+    mean_value=np.mean(data)
+    std_dev=np.std(data)
+
+    skew= (sum((x - mean_value) ** 3 for x in data) * n) / ((n - 1) * (n - 2) * std_dev ** 3)
+
+    return skew
+
+
+
+
+data= np.array([2.5, 3.7, 6.6, 9.1, 9.5, 10.7, 11.9, 21.5, 22.6, 25.2])
+
+skew_res=skew(data)
 
 
 
